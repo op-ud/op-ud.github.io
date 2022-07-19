@@ -1,0 +1,40 @@
+/* global default settings */
+html * {
+  font-family: system-ui; /* text font */
+  font-weight: 500; /* text thickness/boldness */
+  color: black; /* text color */
+}
+
+/* unorganized list settings*/
+ul {
+  list-style-type: none; /* organized list labelling format */
+  margin: 0; /* spacing elements from others: 1: top, 2: right, 3: bottom, 4: left */
+  padding: 0; /* creating space around elements: 1: top, 2: right, 3: bottom, 4: left */
+  overflow: hidden; /* fit content inside box boundaries */
+  background-color: black; /* background color of navbar */
+  top: 0; /* set boundary for navbar */
+  position: -webkit-sticky; /* sticky for safari */
+  position: sticky; /* keep the navbar visible while scrolling */
+}
+
+/* list settings */
+li a {
+  font-weight: 700; /* text thickness/boldness */
+  float: left; /* position where content floats in its container (there is no center float option :c) */
+  display: block; /* render box location of element */
+  color: white; /* text color */
+  text-align: center; /* horizontal alignment of text within an element */
+  padding: 14px 16px; /* padding around list text */
+  text-decoration: none;
+}
+
+/* navbar hover-over-button properties */
+li a:hover {
+  color: black; /* text color */
+  background-color: white; /* background color */
+}
+
+/* navbar active page button properties */
+.active {
+  background-color: darkturquoise; /* navbar active page button color */
+} 
